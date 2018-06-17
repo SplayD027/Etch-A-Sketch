@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size: 1.2em;
+}
+body{
+	background: url(http://res.freestockphotos.biz/pictures/6/6362-illustration-of-a-blank-frame-border-pv.png) no-repeat 50% 32%;
+	background-size: 735px 665px;
+	height: 100vh;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+main{
+	margin: 50px auto ;
+    height: 600px;
+    width: 600px;
+
+    display: grid;
+}
+.box{
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#size{
+	height: 1.2em;
+	margin: 0 auto 20px;
+}
+.button{
+	margin: 0 auto;
+    background-color: white;
+	border: none;
+}
+#drawing{background: url("https://d30y9cdsu7xlg0.cloudfront.net/png/6074-200.png");}
+#randombutton{background: url("https://d30y9cdsu7xlg0.cloudfront.net/png/218734-200.png");}
+#blackbutton{background: url("https://www.shareicon.net/download/2015/12/31/696132_color_512x512.png");}
+
+#drawing,#randombutton,#blackbutton {
+	background-color: white;
+	height: 70px;
+	width: 70px;
+	background-size: 60px 60px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#drawing:hover,#randombutton:hover,#blackbutton:hover{
+	position: relative;
+	bottom: 20px;
+	background-size: 70px 70px;
+}
+#drawing:active,#randombutton:active,#blackbutton:active{
+	position: relative;
+	bottom: 20px;
+	background-size: 50px 50px;
+}
+
+.black {background-color: #222;}
+
+.githubicon{
+    background-image: url("https://image.flaticon.com/icons/png/512/3/3641.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    opacity: 0.7;
+}
+.githubicon:hover{
+    opacity: 1.0;
+}
+.githubicon:active{
+    background-size: 40px;
+    right: 15px;
+    bottom: 10px;
+}
+/*
+.borderbox{
+	position: absolute;
+	height: 660px;
+	width: 700px;
+	top: 120px;
+	left: 570px;
+ 	border: solid;
+	z-index: 1;
+}
+.border{
+	position: absolute;
+	background: url(http://res.freestockphotos.biz/pictures/6/6362-illustration-of-a-blank-frame-border-pv.png) no-repeat;
+	background-size: 690px 640px;
+	height: 50px;
+	width: 60px;
+}
+.b1{
+	height: 690px;left: 30px;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+.b2{
+	width: 690px;top: 30px;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.b3{
+	height: 690px;right: 30px;
+	right: 0;
+	bottom: 0;
+	background-position: right;
+	z-index: 2;
+}
+.b4{
+	width: 690px;bottom: 30px;
+	bottom: 0;
+	right: 0;
+	background-position: bottom;
+	z-index: 2;
+}
+*/
